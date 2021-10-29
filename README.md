@@ -25,7 +25,7 @@ Override settings as needed
 ```
 # settings.py
 
-DEFAULTS = {
+MAGIC_LINKS = {
     # URLS for creating links, dict key corresponds to `source` when requesting link
     'MAGIC_LINKS_URLS': {
         'default': 'http://localhost:8000/auth/',
